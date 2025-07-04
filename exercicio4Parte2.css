@@ -1,0 +1,44 @@
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #388E3C;
+}
+
+
+main {
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #999;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #000;
+}
+
+h2 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+
+.destaque {
+  font-style: italic;
+  background-color: #fdf5e6; /* tom claro e suave */
+  padding: 5px;
+}
+
+
+#importante {
+  border-top: 5px solid #c00; /* mais espessa e visível */
+  padding-top: 10px;
+}

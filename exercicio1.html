@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Empresa</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #004080;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      border-radius: 10px;
+      font-size: 0.9rem;
+    }
+
+    /* Responsivo */
+    @media (min-width: 768px) {
+      main {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      section {
+        flex: 1;
+        margin: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Minha Empresa</h1>
+    <p>Bem-vindo ao nosso site! Conheça nossa missão e visão para transformar o futuro.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Missão</h2>
+      <p>Oferecer soluções inovadoras e sustentáveis, promovendo valor para nossos clientes e a sociedade.</p>
+    </section>
+
+    <section>
+      <h2>Visão</h2>
+      <p>Ser uma empresa de referência, reconhecida por sua excelência, ética e compromisso com o futuro.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Minha Empresa. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

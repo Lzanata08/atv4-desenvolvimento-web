@@ -1,0 +1,54 @@
+/* ---------- Layout Flexbox no contêiner ---------- */
+.galeria-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* ---------- Layout Grid para as imagens ---------- */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 20px;
+}
+
+/* ---------- Estilo para cada figura ---------- */
+.galeria figure {
+  margin: 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.galeria img {
+  max-width: 100%;
+  height: auto;
+}
+
+.galeria figcaption {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* ---------- Responsividade ---------- */
+@media (max-width: 1000px) {
+  .galeria {
+    grid-template-columns: repeat(3, 200px);
+  }
+}
+
+@media (max-width: 700px) {
+  .galeria {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
+
+@media (max-width: 500px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+}
